@@ -1,6 +1,6 @@
-# DevFest 2025 Zagreb Website
+# DevFest 2026 Zagreb Website
 
-This is the official website for DevFest 2025 Zagreb, built with [Next.js](https://nextjs.org/) and featuring a modern, responsive design with multi-stage conference management.
+This is the official website for DevFest 2026 Zagreb, built with [Next.js](https://nextjs.org/) and featuring a modern, responsive design with multi-stage conference management.
 
 ## 🚀 Getting Started
 
@@ -25,25 +25,6 @@ npm run start        # Start production server
 npm run lint         # Run ESLint
 npm run type-check   # Run TypeScript type checking
 npm run type-check:watch  # Run type checking in watch mode
-```
-
-## 🏗️ Project Structure
-
-```
-├── app/                 # Next.js 15 App Router pages
-│   ├── agenda/         # Conference agenda page
-│   ├── speakers/       # Speakers listing page
-│   └── archive/        # Historical conference data
-├── components/         # React components
-│   ├── ui/            # shadcn/ui components
-│   └── ...            # Custom components
-├── json/              # Conference data
-│   ├── speakers.json  # Current year speakers database
-│   ├── enter.json     # "Enter" stage schedule
-│   ├── shift.json     # "Shift" stage schedule
-│   └── archive/       # Historical conference data
-├── lib/               # Utility functions
-└── public/            # Static assets
 ```
 
 ## 📊 Data Architecture
@@ -79,14 +60,6 @@ This project uses a **referential data architecture** that eliminates duplicatio
 
 The system automatically merges speaker data with stage schedules at runtime.
 
-## 🎨 UI Components
-
-Built with modern design patterns:
-- **shadcn/ui** components for consistent design
-- **Tailwind CSS** for responsive styling  
-- **Lucide React** icons
-- **Framer Motion** for animations
-- **Next.js Image** optimization
 
 ### Featured Components
 - **FeaturedSpeakers**: Dynamic layouts (1, 2, 3, 4+ speakers)
@@ -106,20 +79,7 @@ npm run type-check:watch  # Catch type errors during development
 Supports multiple conference years with backward compatibility:
 - `2023/` - Original conference data structure
 - `2024/` - Referential speaker system  
-- `2025/` - Current year with featured speakers
-
-### Responsive Design
-- **Mobile-first** approach
-- **Multi-breakpoint** layouts
-- **Dark mode** support via next-themes
-
-## 📝 Key Technologies
-
-- **Next.js 15** - React framework with App Router
-- **TypeScript** - Type safety and developer experience
-- **Tailwind CSS** - Utility-first styling
-- **shadcn/ui** - Modern component library
-- **Radix UI** - Accessible component primitives
+- `2025/` - 2025 with featured speakers
 
 ## 🔧 Configuration Files
 
@@ -157,7 +117,7 @@ npm run start     # Serves production build locally
 
 ## 📧 Contact
 
-For questions about DevFest 2025 Zagreb, contact: zagrebgdg@gmail.com
+For questions about DevFest 2026 Zagreb, contact: zagrebgdg@gmail.com
 
 ---
 
